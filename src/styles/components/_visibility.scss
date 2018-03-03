@@ -1,0 +1,14 @@
+// Equivalent of media queries
+
+.show-for-mobile {
+    @media (min-width: $desktop-breakpoint) {
+        display: none;
+    }
+}
+
+// Using preset from _settings.scss to control media query breakpoints. The `- .01rem` entry is to prevent them from occurring at exactly the same moment.
+.show-for-desktop {
+    @media (max-width: $desktop-breakpoint - .01rem) {
+        display: none;
+    }
+}

@@ -1,0 +1,34 @@
+.button {
+    background: $wine;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    display: inline-block;
+    font-size: $font-size-large;
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: $s-size;
+    text-decoration: none;
+}
+
+.button--link {
+    background: none;
+}
+
+.button--secondary {
+    background: rgb(98, 98, 98);
+}
+
+// Temporary button to return users from Future ReservationsPage back to Dashboard
+.button--linkback {
+    background: none;
+    border: 2px solid blue;
+    color: blue;
+}
+
+.squirrel {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
