@@ -13,7 +13,7 @@ export const Header = ({ startLogout }) => (
             <div className="header__content">
 
                 <Link className="header__logo" to="/dashboard">
-                     <h1>Restaurant Expense Tracker</h1>
+                     <h1>Restaurant General Ledger</h1>
                 </Link>
 
                 <a href ="/reservationspage" button className="button button--link">Reservations</a>

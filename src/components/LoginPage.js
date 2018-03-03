@@ -6,7 +6,7 @@ export const LoginPage = ({ startLogin }) => (
 
     <div className="login-layout">
         <div className="login-layout__login">
-            <h1 className="logo">Restaurant Expense Manager</h1>
+            <h1 className="logo">Restaurant General Ledger</h1>
             <p>Authorized Users Only</p>
             <p>Please Log In</p>
 
