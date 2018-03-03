@@ -1,4 +1,4 @@
-# General-Ledger
+# General-Ledger  :moneybag: :chart_with_upwards_trend:
 
 ## Purpose of this Project
 
@@ -15,7 +15,7 @@
     - [Technologies Utilized](#technologies-utilized)
     - [Server-side Data Input Validation (Firebase)](#server-side-data-input-validation-firebase)
     - [Steps to Deploy Locally](#steps-to-deploy-locally)
-    - [License -  MIT](#license---mit)
+      - [License -  MIT](#license---mit)
 
 ### How to Use
 
@@ -100,6 +100,8 @@
 10. Set Firebase API keys in Heroku: `heroku config:set <list all 6 keys separated by a space>`
 11. You now should be able to login on your deployed site
 
+***Note:*** *If you encounter a `FIREBASE FATAL ERROR` when you attempt to launch your app, please refer to the repo [Firebase-Fatal-Error-Heroku-Deploy-Solved](https://github.com/captnwalker/Firebase-Fatal-Error-Heroku-Deploy-Solved "Firebase-Fatal-Error-Heroku-Deploy-Solved") for a possible solution.*
+
 ---
 
-### License -  MIT
+#### License -  MIT
