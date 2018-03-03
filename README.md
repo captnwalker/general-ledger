@@ -2,7 +2,7 @@
 
 ## Purpose of this Project
 
->**"c"** allows an individual user or company to track personal or business expenses. Expense-Manager is built in React with SCSS styling which permits each individual element to occupy separate files making the product easily scalable and customizable by swapping components in and out as required for a wide variety of end users. The app is fully responsive for a seamless mobile user experience. This version of the Expense-Manager has been customized for use in food service and restaurant environments.
+>**"General-Ledger"** allows an individual user or company to track personal or business expenses. Expense-Manager is built in React with SCSS styling which permits each individual element to occupy separate files making the product easily scalable and customizable by swapping components in and out as required for a wide variety of end users. The app is fully responsive for a seamless mobile user experience. This version of the Expense-Manager has been customized for use in food service and restaurant environments.
 
 ### Table of Contents
 
