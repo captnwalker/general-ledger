@@ -1,6 +1,6 @@
 .login-layout {
     align-items: center;
-    background: url('/img/rest-blur.jpg');
+    background: url('/img/maldives-hurawalhi-undersea-restaurant.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -10,10 +10,10 @@
 }
 
 .login-layout__login {
-    background: fade-out(rgb(251, 214, 0), .7);
+    background: fade-out(rgb(104, 233, 238), .7);
     border-radius: 15px;
     border-style: ridge;
-    border-color: $wine;
+    border-color: $brand;
     border-width: .5rem ;
     padding: $m-size $s-size;
     text-align: center;
@@ -21,9 +21,10 @@
 }
 
 .logo {
-    font-family: 'Krona One', sans-serif;
-    text-shadow: 2px 2px rgba(194, 194, 246, 0.719);
-    color: $wine;
+    font-family: 'Michroma',
+    sans-serif;
+    text-shadow: 2px 2px rgba(242, 226, 5, .7);
+    color: $brand;
     margin: 0 0 $m-size 0;
     line-height: 1;
 }

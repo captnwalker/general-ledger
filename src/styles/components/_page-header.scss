@@ -1,5 +1,5 @@
 .page-header {
-    background: $off-white;
+    background: $off-white2;
     margin-bottom: $l-size;
     padding: $l-size 0;
 }
@@ -9,7 +9,8 @@
 }
 
 .page-header__title {
-    font-weight: 300;
+    font-weight: 500;
+    color: $brand2;
     margin: 0;
     span {
         font-weight: 700;

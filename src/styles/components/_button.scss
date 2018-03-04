@@ -1,8 +1,8 @@
 .button {
-    background: $wine;
+    background: $brand2;
     border: none;
     border-radius: 15px;
-    color: white;
+    color: $brand;
     display: inline-block;
     font-size: $font-size-large;
     font-size: 1.8rem;
@@ -13,6 +13,7 @@
 
 .button--link {
     background: none;
+    color: $brand2;
 }
 
 .button--secondary {
