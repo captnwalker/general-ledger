@@ -6,9 +6,13 @@ import configureStore from './store/configureStore';
 import { startSetExpenses } from './actions/expenses';
 import { login, logout } from './actions/auth';
 import getVisibleExpenses from './selectors/expenses';
+// import { DropdownList } from 'react-widgets'
+// import Dropdown from 'react-dropdown'
+// import 'react-dropdown/style.css'
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 import 'react-dates/lib/css/_datepicker.css';
+// import 'react-widgets/dist/css/react-widgets.css';
 import { firebase } from './firebase/firebase';
 import LoadingPage from './components/LoadingPage'; 
 

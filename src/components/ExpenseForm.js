@@ -1,7 +1,15 @@
 import React from 'react';
 import moment from 'moment';
 import { SingleDatePicker } from 'react-dates';
+//import DropdownList from 'react-widgets/lib/DropdownList'
+// import Dropdown from 'react-dropdown'
+// import 'react-dropdown/style.css'
 import 'react-dates/lib/css/_datepicker.css';
+//import { Field, reduxForm } from 'redux-form';
+// import DropdownList from 'react-widgets/lib/DropdownList';
+// import SelectList from 'react-widgets/lib/SelectList';
+// import Multiselect from 'react-widgets/lib/Multiselect';
+// import 'react-widgets/dist/css/react-widgets.css';
 
 //const date = new Date();
 const now = moment();
@@ -15,6 +23,7 @@ export default class ExpenseForm extends React.Component {
     this.state = {
         description: props.expense ? props.expense.description : '',
         note: props.expense ? props.expense.note : '',
+        // categories: props.categories ? props.categories.value : '',
         amount: props.expense ? (props.expense.amount / 100).toString() : '',
         createdAt: props.expense ? moment(props.expense.createdAt) : moment(),
         calendarFocused: false,
@@ -73,6 +82,51 @@ export default class ExpenseForm extends React.Component {
                         value={this.state.description}
                         onChange={this.onDescriptionChange}
                     />
+
+    {/* ///////////////// DROP DOWN - CATEGORIES //////////////////////////////////// */}
+
+    {/* const options = ['payroll', 'meat', 'poultry', 'produce', 'seafood', 'rent', 'utilities', 'linens', 'paper_supplies', 'serviceware'];
+
+                <div>
+                    <label>Categories</label>
+                    <div>
+                        <Field name="categories" component="select">
+                            <option></option>
+                            <option value="payroll">payroll</option>
+                            <option value="meat">meat</option>
+                            <option value="poultry">poultry</option>
+                            <option value="produce">produce</option>
+                            <option value="0000ff">Blue</option>
+                            <option value="0000ff">Blue</option>
+                            <option value="0000ff">Blue</option>
+                            <option value="0000ff">Blue</option>
+                            <option value="0000ff">Blue</option>
+                            <option value="0000ff">Blue</option>
+                            <option value="0000ff">Blue</option>
+                        </Field>
+                    </div>
+                </div> */}
+
+
+{/*            
+            let ReactWidgetsForm = props => {
+
+                const options = ['payroll', 'meat', 'poultry', 'seafood', 'rent', 'utilities', 'linens', 'paper_supplies', 'serviceware'];
+
+                const { handleSubmit, pristine, reset, submitting } = props
+                
+                    <form onSubmit={handleSubmit}>
+                                    
+                                        <label>Categories</label>
+                                        <Field
+                                            name="categories"
+                                            component={DropdownList}
+                                            data={options}
+                                            />
+                                     */}
+              
+    {/* /////////////////////////////////////////////////////////////// */}
+
                     <input
                         type="text"
                         placeholder="Amount"
@@ -80,6 +134,8 @@ export default class ExpenseForm extends React.Component {
                         value={this.state.amount}
                         onChange={this.onAmountChange}
                     />
+
+
                     {/* Params for Calendar */}
                     <SingleDatePicker
                     date={this.state.createdAt}

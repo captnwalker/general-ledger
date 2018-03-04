@@ -104,4 +104,13 @@
 
 ---
 
+### Companion Versions of the App
+
+This app was built in React to be easily scalable. Other versions of this app can be found on the following repo's.
+
+* [Expense-Manager](https://github.com/captnwalker/expense-manager "Expense-Manager")
+* [Personal-Expense-Manager](https://github.com/captnwalker/personal-expense-manager "Personal-Expense-Manager")
+* [Reservationist](https://github.com/captnwalker/reservationist "Reservationist")
+* [General-Ledger](https://github.com/captnwalker/general-ledger "General-Ledger")
+
 #### License -  MIT
