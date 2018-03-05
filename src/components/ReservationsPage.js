@@ -19,7 +19,7 @@ render() {
                 
                 </div>
             <div className="squirrel">
-                <img src="/img/jackhammer-squirrel.jpg" alt="Under Construction" />
+                <img src="/img/under-construction.gif" alt="Under Construction" />
                 </div>
             </div>
         );

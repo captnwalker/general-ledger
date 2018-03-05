@@ -153,7 +153,7 @@ export default class ExpenseForm extends React.Component {
                     >
                     </textarea>
                     <div>
-                        <button className="button" >Save Invoice Changes</button>
+                    <button className="button--save-invoice" >Save Invoice Changes</button>
                     </div>                    
                 </form>
             )

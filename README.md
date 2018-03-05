@@ -29,7 +29,7 @@
 
 ![general-ledger](https://raw.github.com/captnwalker/general-ledger/master/screenshots/screenshot1.png "general-ledger")
 
-![general-ledger](https://raw.github.com/captnwalker/general-ledger/master/screenshots/screenshot2.gif "general-ledger")
+![general-ledger](https://raw.github.com/captnwalker/general-ledger/master/screenshots/screenshot2.png "general-ledger")
 
 ![general-ledger](https://raw.github.com/captnwalker/general-ledger/master/screenshots/screenshot5.jpg "general-ledger")
 

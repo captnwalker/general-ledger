@@ -10,9 +10,10 @@
 
 .page-header__title {
     font-weight: 500;
-    color: $brand2;
+    color: rgb(185, 135, 7);
+    //text-shadow: 1px 1px rgba(55, 13, 241, 0.7);
     margin: 0;
     span {
-        font-weight: 700;
+        font-weight: 900;
     }
 }

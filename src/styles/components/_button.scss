@@ -11,6 +11,32 @@
     text-decoration: none;
 }
 
+.button--add-expense {
+    background: $brand2;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    display: inline-block;
+    font-size: $font-size-large;
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: $s-size;
+    text-decoration: none;
+}
+
+.button--save-invoice {
+    background: $brand2;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    display: inline-block;
+    font-size: $font-size-large;
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: $s-size;
+    text-decoration: none;
+}
+
 .button--link {
     background: none;
     color: $brand2;
@@ -19,6 +45,8 @@
 .button--secondary {
     background: rgb(98, 98, 98);
 }
+
+
 
 // Temporary button to return users from Future ReservationsPage back to Dashboard
 .button--linkback {
